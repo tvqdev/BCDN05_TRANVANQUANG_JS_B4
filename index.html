@@ -11,7 +11,44 @@
 
 <body>
 
+     <div class="container">
+          <div class="center">
+               <p>Bài 1</p>
 
+               <form class="text-field">
+                    <input type="number" id="dc" placeholder="Điểm chuẩn"> <br>
+                    <select class="custom-select" name="" id="kv">
+                         <option value="kv_0">----Chọn khu vực-----</option>
+                         <option value="kv_A">A</option>
+                         <option value="kv_B">B</option>
+                         <option value="kv_C">C</option>
+                    </select>
+                    <br><br>
+                    <select class="custom-select" name="" id="dt">
+                         <option value="dt_0">----Chọn đối tượng----</option>
+                         <option value="dt_1">1</option>
+                         <option value="dt_2">2</option>
+                         <option value="dt_3">3</option>
+                    </select><br><br>
+                    <input type="number" id="mon1" placeholder="môn 1"><br>
+                    <input type="number" id="mon2" placeholder="môn 2"><br>
+                    <input type="number" id="mon3" placeholder="môn 3"><br>
+               </form><br>
+               <p id="diem"></p><br>
+               <button class="button-effect" type="button" id="btn_kq">Kết Quả</button>
+          </div>
+
+          <br>
+          <div class="center">
+               <p>Bài 2</p>
+               <form class="text-field">
+                    <input type="text" id="name" placeholder="tên KH"><br>
+                    <input type="number" id="soKW" placeholder="Số KW">
+               </form><br>
+               <p id="tiendien"></p><br>
+               <button class="button-effect" id="btn_tiendien" type="button">Tổng</button>
+          </div>
+     </div>
 
 
      <script src="./js/main.js"></script>
