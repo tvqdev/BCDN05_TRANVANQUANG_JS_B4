@@ -121,7 +121,7 @@ function tinhTienDien() {
      } else if (350 < soKW) {
           tienDien = 50 * giaTien1 + 50 * giaTien2 + 100 * giaTien3 + 150 * giaTien4 + (soKW - 350) * giaTien5;
      } else {
-          alert("Bạn đang nhập số âm")
+          alert("Nhập lại số KW")
      }
      document.getElementById("tiendien").innerHTML = "Tên khách hàng: " + tenKH + "<br>" + " Số tiền điện: " + Intl.NumberFormat('de-DE').format(tienDien);
 }
